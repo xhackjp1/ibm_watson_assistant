@@ -39,7 +39,7 @@
 
 1. Watson Assistant APIをバインド
 2. フローを作成する
-    - 完成版のフローは[こちら](https://github.com/taijihagino/chatbot-lineapi-watsonapi)からダウンロード
+    - 完成版のフローは[こちら](https://github.com/x-hack-git/ibm_watson_assistant/blob/master/node-red-define.json)からダウンロードorコピー
 3. URLのパスを設定
     - `/line_hook`
     - `https://<IBM Cloudで作った際のNode-REDのアプリ名>.mybluemix.net/<http inで指定したパス>/`
