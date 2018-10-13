@@ -1,11 +1,15 @@
-# 前提
+# IBM Cloud
+
+[IBM Cloud とは？](https://www.ibm.com/thought-leadership/jp-ja/your-cloud/?S_PKG=&cm_mmc=Search_Google-_-Corporate+Advertising_Pillars-_-JP_JP-_-ibm+cloud_Exact_&cm_mmca1=000027JN&cm_mmca2=10006691&cm_mmca7=1009239&cm_mmca8=kwd-299762552132&cm_mmca9=cd280557-cbe3-4f4a-8574-a0f2c028299d&cm_mmca10=293968000739&cm_mmca11=e&mkwid=cd280557-cbe3-4f4a-8574-a0f2c028299d_620_16417)
+
+# チュートリアルを実施する準備
 
 - LINEのアカウントを持っていて、PCログインができる。
 - IBM IDを持っていて、Buluemixにログインができる。
 
 [lineチャットボットとwatsonを連携する](https://medium.com/@taiponrock/lineチャットボットとwatsonを連携する-8a7d89a49e57)
 
-# IBMアカウントを作成し、ログイン
+# IBM Buluemixにログイン
 
 [ダッシュボード](https://console.bluemix.net/dashboard/apps)
 
