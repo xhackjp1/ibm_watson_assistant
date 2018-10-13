@@ -28,6 +28,10 @@
 
 [公式](https://www.ibm.com/developerworks/jp/cognitive/library/cc-watson-chatbot-conversation/index.html)
 
+# Node-REDとは
+
+[Node-RED入門編](https://qiita.com/joohounsong/items/5b5241df84f910df6627)
+
 # Node-RED Starterを選択
 
 1. Bluemix -> カタログ-> スターター・キット → Node-RED Starter
