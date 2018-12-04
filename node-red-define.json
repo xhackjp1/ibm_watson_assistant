@@ -75,7 +75,7 @@
     "type": "function",
     "z": "f647e236.b6574",
     "name": "createReplyMessage",
-    "func": "//flowから取り出す\nvar output_text = flow.get(\"text\");\n\nvar post_request = {\n    \"headers\": {\n        \"content-type\": \"application/json; charset=UTF-8\",\n        \"Authorization\": \" Bearer \" + \"{<LINEアクセストークンに置き換えてください>}\"\n    },\n    \"payload\": {\n        //\"replyToken\": msg.payload.events[0].replyToken,\n        \"replyToken\": flow.get(\"replyToken\"),\n        \"messages\": [\n            {\n                \"type\": \"text\",\n                \"text\": msg.payload.optext + \"ฅ^•ﻌ•^ฅ\"\n            }\n        ]\n    }\n};\n\nreturn post_request;",
+    "func": "//flowから取り出す\nvar output_text = flow.get(\"text\");\n\nvar post_request = {\n    \"headers\": {\n        \"content-type\": \"application/json; charset=UTF-8\",\n        \"Authorization\": \" Bearer \" + \"{<LINEアクセストークンに置き換えてください>}\"\n    },\n    \"payload\": {\n        //\"replyToken\": msg.payload.events[0].replyToken,\n        \"replyToken\": flow.get(\"replyToken\"),\n        \"messages\": [\n            {\n                \"type\": \"text\",\n                \"text\": msg.payload.optext + \"\"\n            }\n        ]\n    }\n};\n\nreturn post_request;",
     "outputs": 1,
     "noerr": 0,
     "x": 500,
